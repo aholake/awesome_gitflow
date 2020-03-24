@@ -17,6 +17,12 @@
     "eject": "react-scripts eject",
     "release": "generate-release"
   },
+  "config": {
+    "generateRelease": {
+      "no_confirm": true,
+      "remote": "origin"
+    }
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
